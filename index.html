@@ -19,11 +19,23 @@
         placeholder: '搜索',
         noData: '没有结果！',
       },
+      // 文档标题，会显示在侧边栏顶部
       name: '',
       repo: 'https://github.com/qinzhengquan',
+      // 自动跳转到页面顶部
+      auto2top: true,
+      // 启用封面页
 	  coverpage: true,
+      // 只在访问主页时加载封面
 	  onlyCover: true,
-      loadSidebar: true
+      // 加载自定义侧边栏
+      loadSidebar: true,
+      //小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
+      // 路由模式
+      routerMode: 'history',
+      // 配置日期格式
+      formatUpdated: '{MM}/{DD} {HH}:{mm}'
       // subMaxLevel: 1,
       // sidebarDisplayLevel: 0
     }
