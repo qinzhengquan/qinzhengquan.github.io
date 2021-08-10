@@ -6,8 +6,7 @@
 
 > 你知道的越多，你不知道的越多。
 
-- 邮箱：582079322@qq.com
-- 手机：17671751707
+- 一个平凡的小码农
 
 [GitHub](https://github.com/qinzhengquan)
 [Started](README.md)
