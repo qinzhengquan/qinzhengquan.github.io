@@ -10,6 +10,6 @@
 - 无需生成 html 文件
 - 众多主题
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/qinzhengquan)
 [Get Started](#docsify)
 
