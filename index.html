@@ -8,14 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- 主题样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-
+<!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">-->
   <!-- gitalk评论插件样式 -->
 <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">-->
-<!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />-->
+  <!-- 侧边栏折叠 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
 </head>
 <body>
   <div id="app">loading...</div>
   <script>
+
     window.$docsify = {
       //搜索插件
       search: {
@@ -40,9 +43,9 @@
       // 配置日期格式
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       // 显示最大层级
-      subMaxLevel: 2
+      subMaxLevel: 2,
       // 展开层级
-      // sidebarDisplayLevel: 0
+      sidebarDisplayLevel: 1
     }
   </script>
 
@@ -65,7 +68,11 @@
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-properties.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-java.js"></script>
 
-<!--  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>-->
+<!--  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>-->
+
+    <!-- 侧边栏折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
   <!-- use the footer plugin latest version -->
 
   <!-- 评论 -->
