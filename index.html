@@ -45,7 +45,13 @@
       // 显示最大层级
       subMaxLevel: 2,
       // 展开层级
-      sidebarDisplayLevel: 1
+      sidebarDisplayLevel: 1,
+      pagination: {
+        previousText: '上一页',
+        nextText: '下一页',
+        crossChapter: true,
+        crossChapterText: true,
+      }
     }
   </script>
 
@@ -72,6 +78,8 @@
 
     <!-- 侧边栏折叠 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!--分页-->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
   <!-- use the footer plugin latest version -->
 

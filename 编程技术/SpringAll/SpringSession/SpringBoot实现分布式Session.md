@@ -1,15 +1,6 @@
 # Spring Boot 实现分布式 Session
 
-<nav>
-<a href="#一项目结构">一、项目结构</a><br/>
-<a href="#二实现分布式-Session">二、实现分布式 Session</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-基本依赖">2.1 基本依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-实现原理">2.2 实现原理</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-自动配置">2.3 自动配置</a><br/>
-<a href="#三验证分布式-Session">三、验证分布式 Session</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-测试准备">3.1 测试准备</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-测试结果">3.2 测试结果</a><br/>
-</nav>
+[TOC]
 
 ## 一、项目结构
 
