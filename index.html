@@ -13,7 +13,8 @@
 <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">-->
   <!-- 侧边栏折叠 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-
+  <!-- 目录跳转 -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
 </head>
 <body>
   <div id="app">loading...</div>
@@ -45,13 +46,38 @@
       // 显示最大层级
       subMaxLevel: 2,
       // 展开层级
-      sidebarDisplayLevel: 1,
+      sidebarDisplayLevel: 0,
       pagination: {
         previousText: '上一页',
         nextText: '下一页',
         crossChapter: true,
         crossChapterText: true,
-      }
+      },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title: '目录',
+      },
+      plugins: [
+        function (hook, vm) {
+          // load livere
+          hook.beforeEach(function(content) {
+            var comment = "<div id='lv-container' data-id='city' data-uid='MTAyMC81Mzc0Mi8zMDIxNQ=='></div>"
+            return content + comment;
+          });
+
+          hook.doneEach(function() {
+            (function(d, s) {
+              var j, e = d.getElementsByTagName(s)[0];
+              if (typeof LivereTower === 'function') { return; }
+              j = d.createElement(s);
+              j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+              j.async = true;
+              e.parentNode.insertBefore(j, e);
+            })(document, 'script');
+          });
+        },
+      ]
     }
   </script>
 
@@ -82,7 +108,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!--分页-->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-
+  <!-- 目录跳转 -->
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
   <!-- use the footer plugin latest version -->
 
   <!-- 评论 -->
