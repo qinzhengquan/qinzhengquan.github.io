@@ -1,24 +1,5 @@
 # Spring Boot + Druid + Mybatis + Atomikos 配置多数据源 并支持分布式事务
 
-<nav>
-<a href="#一项目综述">一、项目综述</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-项目说明">1.1 项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-项目结构">1.2 项目结构</a><br/>
-<a href="#二配置多数据源并支持分布式事务">二、配置多数据源并支持分布式事务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21--导入基本依赖">2.1  导入基本依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-配置多数据源">2.2 配置多数据源</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-实现多数据源">2.3 实现多数据源</a><br/>
-<a href="#三测试整合结果">三、测试整合结果</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31--测试数据库整合结果">3.1  测试数据库整合结果</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-测试单数据库事务">3.2 测试单数据库事务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-测试分布式事务">3.3 测试分布式事务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#34-测试-Druid-数据源">3.4 测试 Druid 数据源</a><br/>
-<a href="#四JTA与两阶段提交">四、JTA与两阶段提交</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-XA-与-JTA">4.1 XA 与 JTA</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-两阶段提交">4.2 两阶段提交</a><br/>
-<a href="#五常见整合异常">五、常见整合异常</a><br/>
-</nav>
-
 ## 一、项目综述
 
 ### 1.1 项目说明
@@ -805,4 +786,3 @@ private SqlSessionFactory createSqlSessionFactory(DataSource dataSource) throws 
 
 ## 参考资料
 
-+ [浅谈分布式事务](https://www.cnblogs.com/baiwa/p/5328722.html)

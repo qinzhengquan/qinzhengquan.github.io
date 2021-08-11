@@ -1,16 +1,5 @@
 # Spring Boot 整合 MongoDB
 
-
-<nav>
-<a href="#一项目说明">一、项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-项目结构">1.1 项目结构</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-基本依赖">1.2 基本依赖</a><br/>
-<a href="#二整合-MongoDB">二、整合 MongoDB </a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-配置数据源">2.1 配置数据源</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22--MongoTemplate">2.2  MongoTemplate</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-Spring-Data-JPA">2.3 Spring Data JPA</a><br/>
-</nav>
-
 ## 一、项目说明
 
 ### 1.1 项目结构

@@ -1,28 +1,6 @@
 # Spring-Cloud-Ribbon
 
 
-<nav>
-<a href="#一Ribbon-简介">一、Ribbon 简介</a><br/>
-<a href="#二项目结构">二、项目结构</a><br/>
-<a href="#三服务提供者的实现">三、服务提供者的实现</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-定义服务">3.1 定义服务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-注册服务">3.2 注册服务</a><br/>
-<a href="#四服务消费者的实现">四、服务消费者的实现</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-基本依赖">4.1 基本依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-注册服务">4.2 注册服务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-LoadBalanced">4.3 @LoadBalanced</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#44-调用远程服务">4.4 调用远程服务</a><br/>
-<a href="#五启动测试">五、启动测试</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-启动服务">5.1 启动服务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52--验证负载均衡">5.2  验证负载均衡</a><br/>
-<a href="#六RestTemplate">六、RestTemplate</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#61--RestTemplate-规范">6.1  RestTemplate 规范</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#62--ForEntity-和-ForObject-的区别">6.2  ForEntity 和 ForObject 的区别</a><br/>
-<a href="#七负载均衡策略">七、负载均衡策略</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#71-内置的负载均衡的策略">7.1 内置的负载均衡的策略</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#72-指定负载均衡的策略">7.2 指定负载均衡的策略</a><br/>
-</nav>
-
 ## 一、Ribbon 简介
 
 Ribbon 是 Netfix 公司开源的负载均衡组件，采用服务端负载均衡的方式，即消费者客户端维护可用的服务列表，并通过负载均衡的方式将请求按照指定的策略分摊给消费者，从而达到负载均衡的方式。

@@ -1,15 +1,5 @@
 # Spring Boot 整合 Tomcat
 
-<nav>
-<a href="#一项目说明">一、项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-项目结构">1.1 项目结构</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-基本依赖">1.2 基本依赖</a><br/>
-<a href="#二整合-Tomcat">二、整合 Tomcat</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-SpringBootServletInitializer">2.1 SpringBootServletInitializer</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-定义视图">2.2 定义视图</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-整合测试">2.3 整合测试</a><br/>
-</nav>
-
 ## 一、项目说明
 
 ### 1.1 项目结构

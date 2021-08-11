@@ -1,24 +1,6 @@
 # Spring-Cloud-Zuul
 
 
-<nav>
-<a href="#一简介">一、简介</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-API-网关">1.1 API 网关</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-Spring-Cloud-Zuul">1.2 Spring Cloud Zuul</a><br/>
-<a href="#二项目结构">二、项目结构</a><br/>
-<a href="#三Zuul-网关">三、Zuul 网关</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-引入依赖">3.1 引入依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-添加注解">3.2 添加注解</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33--项目配置">3.3  项目配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#34--启动服务">3.4  启动服务</a><br/>
-<a href="#四错误熔断">四、错误熔断</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41--默认依赖">4.1  默认依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-服务降级">4.2 服务降级</a><br/>
-<a href="#五Zuul--过滤器">五、Zuul  过滤器</a><br/>
-<a href="#六负载均衡">六、负载均衡</a><br/>
-<a href="#七常见异常">七、常见异常</a><br/>
-</nav>
-
 ## 一、简介
 
 ### 1.1 API 网关

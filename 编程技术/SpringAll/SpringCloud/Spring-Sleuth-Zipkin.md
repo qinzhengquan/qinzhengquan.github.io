@@ -1,15 +1,5 @@
 # Spring-Sleuth-Zipkin
 
-<nav>
-<a href="#一简介">一、简介</a><br/>
-<a href="#二项目结构">二、项目结构</a><br/>
-<a href="#三Zipkin-服务端">三、Zipkin 服务端</a><br/>
-<a href="#四Zipkin-的集成">四、Zipkin 的集成 </a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-添加依赖">4.1 添加依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-连接到服务端">4.2 连接到服务端</a><br/>
-<a href="#五启动项目">五、启动项目</a><br/>
-</nav>
-
 ## 一、简介
 
 在微服务架构中，几乎每一个前端的请求都会经过多个服务单元来协调提供服务，从而形成复杂的调用链路。此时如果服务发生问题，我们就很难知道其具体发生在哪一个环节，想要解决这个问题，可以使用链路追踪技术。Zipkin 是一个开源的分布式跟踪系统，Spring 支持使用 Spring Cloud Sleuth 来轻松地集成 Zipkin。

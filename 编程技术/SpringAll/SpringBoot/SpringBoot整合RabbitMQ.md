@@ -1,19 +1,6 @@
 # Spring Boot 整合 RabbitMQ
 
 
-<nav>
-<a href="#一-项目结构">一、 项目结构</a><br/>
-<a href="#二主要依赖">二、主要依赖</a><br/>
-<a href="#三公共模块">三、公共模块</a><br/>
-<a href="#四消息消费者">四、消息消费者</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-消费者配置">4.1 消费者配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-创建监听者">4.2 创建监听者</a><br/>
-<a href="#五消息生产者">五、消息生产者</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-生产者配置">5.1 生产者配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52--创建生产者">5.2  创建生产者</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#53--单元测试">5.3  单元测试</a><br/>
-<a href="#六项目构建">六、项目构建</a><br/>
-</nav>
 
 ## 一、 项目结构
 

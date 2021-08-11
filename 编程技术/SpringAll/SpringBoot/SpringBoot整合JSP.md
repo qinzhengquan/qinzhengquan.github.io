@@ -1,13 +1,5 @@
 # Spring Boot整合 JSP
 
-<nav>
-<a href="#一项目说明">一、项目说明</a><br/>
-<a href="#二整合-JSP">二、整合 JSP</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-基本依赖">2.1 基本依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-配置视图">2.2 配置视图</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23--整合测试">2.3  整合测试</a><br/>
-</nav>
-
 ## 一、项目说明
 
 <div align="center"> <img src="https://gitee.com/heibaiying/spring-samples-for-all/raw/master/pictures/spring-boot-jsp.png"/> </div>

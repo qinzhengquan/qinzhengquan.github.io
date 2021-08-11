@@ -1,17 +1,6 @@
 # Spring-Boot 基础
 
 
-<nav>
-<a href="#一项目说明">一、项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-项目结构">1.1 项目结构</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-基本依赖">1.2 基本依赖</a><br/>
-<a href="#二主启动类">二、主启动类</a><br/>
-<a href="#三开箱即用">三、开箱即用</a><br/>
-<a href="#四模板引擎">四、模板引擎</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-freemarker">4.1 freemarker</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-thymeleaf">4.2 thymeleaf</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-文档说明">4.3 文档说明</a><br/>
-</nav>
 
 ## 一、项目说明
 

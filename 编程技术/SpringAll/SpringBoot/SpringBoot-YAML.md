@@ -1,20 +1,5 @@
 # Spring Boot YAML
 
-<nav>
-<a href="#一项目结构">一、项目结构</a><br/>
-<a href="#二YAML-语法">二、YAML 语法</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-基本规则">2.1 基本规则</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-对象的写法">2.2 对象的写法</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-Map的写法">2.3 Map的写法</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#24-数组的写法">2.4 数组的写法</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#25-单双引号">2.5 单双引号</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#26-特殊符号">2.6 特殊符号</a><br/>
-<a href="#三Spring-Boot-与-YAML">三、Spring Boot 与 YAML</a><br/>
-<a href="#四ConfigurationProperties">四、@ConfigurationProperties</a><br/>
-<a href="#五多环境配置文件">五、多环境配置文件</a><br/>
-<a href="#六优先级的说明">六、优先级的说明</a><br/>
-</nav>
-
 ## 一、项目结构
 
 <div align="center"> <img src="https://gitee.com/heibaiying/spring-samples-for-all/raw/master/pictures/spring-boot-yml-profile.png"/> </div>

@@ -1,20 +1,6 @@
 # Eureka 服务的注册与发现
 
 
-<nav>
-<a href="#一Eureka-简介">一、Eureka 简介</a><br/>
-<a href="#二项目结构">二、项目结构</a><br/>
-<a href="#三三步搭建-Eureka-服务注册中心">三、三步搭建Eureka服务注册中心</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-服务端依赖">3.1 服务端依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-服务端配置">3.2 服务端配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-EnableEurekaServer">3.3 @EnableEurekaServer</a><br/>
-<a href="#四三步搭建-Eureka-客户端">四、三步搭建Eureka客户端</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-客户端依赖">4.1 客户端依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-客户端配置">4.2 客户端配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-EnableDiscoveryClient">4.3 @EnableDiscoveryClient</a><br/>
-<a href="#五启动项目">五、启动项目 </a><br/>
-</nav>
-
 ## 一、Eureka 简介
 
 Spring Cloud Eureka 使用 Netﬂix Eureka 来实现服务注册与发现，它既包含了服务端组件，也包含了客户端组件：

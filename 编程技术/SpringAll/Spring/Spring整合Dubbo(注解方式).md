@@ -1,19 +1,5 @@
 # Spring 整合 Dubbo（注解方式）
 
-<nav>
-<a href="#一-项目结构">一、 项目结构</a><br/>
-<a href="#二项目依赖">二、项目依赖</a><br/>
-<a href="#三公共模块">三、公共模块</a><br/>
-<a href="#四-服务提供者">四、 服务提供者</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-提供者配置">4.1 提供者配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42--暴露服务">4.2  暴露服务</a><br/>
-<a href="#五服务消费者">五、服务消费者</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-消费者配置">5.1 消费者配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52-调用远程服务">5.2 调用远程服务</a><br/>
-<a href="#六项目构建">六、项目构建</a><br/>
-<a href="#七Dubbo-控制台">七、Dubbo 控制台</a><br/>
-</nav>
-
 ## 一、 项目结构
 
 按照 Dubbo 官方文档推荐的服务最佳化方案，建议将服务接口、服务模型、服务异常等均放在单独的 API 包中，所以项目采用 maven 多模块的构建方式，在 spring-dubbo 下构建三个子模块：

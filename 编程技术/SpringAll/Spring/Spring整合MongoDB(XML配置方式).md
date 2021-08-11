@@ -1,15 +1,5 @@
 # Spring 整合 MongoDB（ XML 配置方式）
 
-<nav>
-<a href="#一项目说明">一、项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-项目结构">1.1 项目结构</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-相关依赖">1.2 相关依赖</a><br/>
-<a href="#二整合-MongoDB">二、整合 MongoDB</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-配置文件">2.1 配置文件</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-整合配置">2.2 整合配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-测试整合">2.3 测试整合</a><br/>
-</nav>
-
 ## 一、项目说明
 
 ### 1.1 项目结构

@@ -1,25 +1,6 @@
 # Spring Boot Actuator
 
 
-<nav>
-<a href="#一相关概念">一、相关概念</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-执行端点">1.1 执行端点</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-启用端点">1.2 启用端点</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-暴露端点">1.3 暴露端点</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-健康检查">1.4 健康检查</a><br/>
-<a href="#二项目说明">二、项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-项目结构">2.1 项目结构</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-主要依赖">2.2 主要依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-项目配置">2.3 项目配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#24-监控状态">2.4 监控状态</a><br/>
-<a href="#三自定义健康检查指标">三、自定义健康检查指标</a><br/>
-<a href="#四自定义健康状态聚合规则">四、自定义健康状态聚合规则</a><br/>
-<a href="#五自定义端点">五、自定义端点</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-Hyperic-Sigar">5.1 Hyperic Sigar </a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52-自定义端点">5.2 自定义端点</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#53-访问自定义端点">5.3 访问自定义端点</a><br/>
-</nav>
-
 ## 一、相关概念
 
 ### 1.1 执行端点

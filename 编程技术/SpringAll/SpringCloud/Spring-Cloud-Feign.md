@@ -1,28 +1,6 @@
 # Spring-Cloud-Feign
 
 
-<nav>
-<a href="#一Feign-简介">一、Feign 简介</a><br/>
-<a href="#二项目结构">二、项目结构</a><br/>
-<a href="#三服务提供者的实现">三、服务提供者的实现</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-定义服务">3.1 定义服务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-服务注册">3.2 服务注册</a><br/>
-<a href="#四服务消费者的实现">四、服务消费者的实现</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-基本依赖">4.1 基本依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-EnableFeignClients">4.2 @EnableFeignClients </a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-创建服务调用接口">4.3 创建服务调用接口</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#44--Feign-客户端">4.4  Feign 客户端</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#45--调用远程服务">4.5  调用远程服务</a><br/>
-<a href="#五启动测试">五、启动测试</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-启动服务">5.1 启动服务</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52--验证负载均衡">5.2  验证负载均衡</a><br/>
-<a href="#六Feign-的服务容错">六、Feign 的服务容错</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#61-开启容错配置">6.1 开启容错配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-定义降级处理">6.2 定义降级处理</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#63-配置降级处理">6.3 配置降级处理</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#64-测试熔断">6.4 测试熔断</a><br/>
-</nav>
-
 ## 一、Feign 简介
 
 在上一个用例中，我们使用 Ribbon + RestTemplate 实现服务之间的远程调用，实际上每一个调用都是模板化的内容，所以 Spring Cloud Feign 在此基础上进行了进一步的封装。我们只需要定义一个接口并使用 Feign 注解的方式来进行配置，同时采用 springMvc 注解进行参数绑定就可以完成服务的调用。Feign 同时还内置实现了负载均衡、服务容错等功能。

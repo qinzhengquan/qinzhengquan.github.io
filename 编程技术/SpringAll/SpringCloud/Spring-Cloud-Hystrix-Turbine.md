@@ -1,26 +1,5 @@
 # Spring-Cloud-Hystrix-Turbine
 
-<nav>
-<a href="#一简介">一、简介</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-Spring-Cloud-Hystrix">1.1 Spring Cloud Hystrix</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-熔断器工作机制">1.2 熔断器工作机制</a><br/>
-<a href="#二项目结构">二、项目结构</a><br/>
-<a href="#三整合-Hystrix">三、整合 Hystrix </a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-引入依赖">3.1 引入依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-暴露端点">3.2 暴露端点</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-添加注解">3.3 添加注解</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#34--服务降级">3.4  服务降级</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#35-模拟熔断">3.5 模拟熔断</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#35---测试熔断">3.5   测试熔断</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#37-控制台">3.7 控制台</a><br/>
-<a href="#四聚合监控">四、聚合监控</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-导入依赖">4.1 导入依赖</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-项目配置">4.2 项目配置</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-添加注解">4.3 添加注解</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#44-启动项目">4.4 启动项目</a><br/>
-<a href="#五常见问题">五、常见问题</a><br/>
-</nav>
-
 ## 一、简介
 
 ### 1.1 Spring Cloud Hystrix

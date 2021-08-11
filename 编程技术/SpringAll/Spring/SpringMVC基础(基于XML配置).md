@@ -1,18 +1,4 @@
 # Spring MVC 基础（基于 XML 配置）
-<nav>
-<a href="#一搭建-Hello-Spring-工程">一、搭建 Hello Spring 工程</a><br/>
-<a href="#二配置自定义拦截器">二、配置自定义拦截器</a><br/>
-<a href="#三全局异常处理">三、全局异常处理 </a><br/>
-<a href="#四参数绑定">四、参数绑定</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-参数绑定">4.1 参数绑定</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-日期格式转换">4.2 日期格式转换</a><br/>
-<a href="#五数据校验">五、数据校验</a><br/>
-<a href="#六文件上传与下载">六、文件上传与下载</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#61-文件上传">6.1 文件上传</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-文件下载">6.2 文件下载</a><br/>
-<a href="#七RESTful-风格的请求">七、RESTful 风格的请求</a><br/>
-</nav>
-
 
 
 ## 一、搭建 Hello Spring 工程

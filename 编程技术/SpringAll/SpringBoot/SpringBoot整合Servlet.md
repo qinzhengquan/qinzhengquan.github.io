@@ -1,18 +1,6 @@
 # Spring Boot 整合 Servlet 
 
 
-<nav>
-<a href="#一项目说明">一、项目说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-结构说明">1.1 结构说明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-项目依赖">1.2 项目依赖</a><br/>
-<a href="#二Spring-注册方式">二、Spring 注册方式</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-组件声明">2.1 组件声明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-组件注册">2.2 组件注册</a><br/>
-<a href="#三原生注解方式">三、原生注解方式</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-组件声明">3.1 组件声明</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-组件生效">3.2 组件生效</a><br/>
-</nav>
-
 ## 一、项目说明
 
 ### 1.1 结构说明
