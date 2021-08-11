@@ -1,4 +1,4 @@
-* [Home](README.md)
+* [我的信息](README.md)
 
 * 编程技术
     * 计算机基础
