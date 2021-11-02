@@ -14,7 +14,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-优点与缺点">4.1 优点与缺点</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-使用建议">4.2 使用建议</a><br/>
 </nav>
-
 ## 一、数据持久化
 
 默认情况下 Redis  的数据都是保存在内存中，为避免 Redis 进程意外退出而导致数据丢失的问题，Redis 提供了 RDB 和 AOF 两种方式来实现数据的持久化存储。
@@ -53,6 +52,8 @@ RDB 文件默认保存在 Redis 的工作目录下，默认文件名为 `dump.rd
   config set dir{newDir}
   config set dbfilename{newFileName}
   ```
+  
+  
 
 **2. 压缩算法**
 

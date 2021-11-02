@@ -60,7 +60,7 @@ slaveof {newMasterIp} {newMasterPort}
 
 Redis Sentinel 是一个特殊的 Redis 节点。在哨兵模式创建时，需要通过配置指定 Sentinel 与 Redis Master Node 之间的关系，然后 Sentinel 会从主节点上获取所有从节点的信息，之后 Sentinel 会定时向主节点和从节点发送 `info` 命令获取其拓扑结构和状态信息。
 
-#### 2. Sentinel 与 Sentinel 
+#### 2. Sentinel 与 Sentinel
 
 基于 Redis 的发布订阅功能， 每个 Sentinel 节点会向主节点的 `__sentinel__：hello` 频道上发送该 Sentinel 节点对于主节点的判断以及当前 Sentinel 节点的信息 ，同时每个 Sentinel 节点也会订阅该频道， 来获取其他 Sentinel 节点的信息以及它们对主节点的判断。
 
